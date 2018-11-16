@@ -1,5 +1,14 @@
 .root{
   display: grid;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("https://cdn.hipwallpaper.com/i/89/80/w8qd1O.jpg");
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+}
+
+h1, #description{
+  text-align: center;
 }
 
 .inputField{
@@ -21,6 +30,10 @@ label{
 
 input:invalid{
   box-shadow: 1px 1px 5px 5px hsl(0, 60%, 52%, .7);
+}
+
+#Name, #Email{
+  margin-left: 4vw;
 }
 
 #expLevel{
