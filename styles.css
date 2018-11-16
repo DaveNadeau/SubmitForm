@@ -3,5 +3,22 @@
 }
 
 .inputField{
-  border-radius: 4%;
+  border-radius: 8%;
+}
+
+.formField{
+  display: flex;
+  margin: 0 0 2vh 0;
+}
+
+label{
+  margin-right: 2vw;
+}
+
+/* input:valid{
+  box-shadow: 1px 1px 5px 5px hsl(61, 63%, 53%, .7);
+} */
+
+input:invalid{
+  box-shadow: 1px 1px 5px 5px hsl(0, 60%, 52%, .7);
 }

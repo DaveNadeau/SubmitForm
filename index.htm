@@ -17,14 +17,37 @@
       </div>
       <div class="form">
         <form class="form" action="index.html" method="get">
-          <input class="inputField" type="text" id="name"
-          name="name" placeholder="enter your name" required>
-          <input class="inputField" type="email" id="email"
-          name="enter your email" placeholder="enter your email" required>
+          <div class="formField">
+            <label for="name-label">Name:</label>
+            <input autofocus class="inputField" type="text" id="name-label"
+            name="name" placeholder="enter your name" required>
+          </div>
+          <div class="formField">
+            <label for="email-label">Email:</label>
+            <input class="inputField" type="email" id="email-label"
+            name="enter your email" placeholder="enter your email" required>
+          </div>
+          <div class="formField">
+            <label for="number-label">On a scale from 1 to 10, how would you rate this survey form?</label>
+            <input class="inputField" type="number" id="number-label" name="number"
+            placeholder="#" min="0" max="10">
+          </div>
+          <div class="formField">
+            <label for="dropdown">How do you feel about the aesthetic of this 
+            survey form</label>
+            <select class="dropDown" id="dropdown" name="drpdwn">
+              <option value="Choose one">Choose One...</option>
+              <option value="Good">Good</option>
+              <option value="Bad">Bad</option>
+              <option value="Ugly">Ugly</option>
+              <option value="JustOkay">Just Okay...</option>
+            </select>
+          </div>
+          <input type="submit" name="submitBtn" value="Submit">
         </form>
       </div>
       <div class="footer">
-        <input type="submit" name="submitBtn" value="Submit">
+
       </div>
     </div>
 
