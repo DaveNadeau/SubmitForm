@@ -33,7 +33,7 @@
             placeholder="#" min="0" max="10">
           </div>
           <div class="formField">
-            <label for="dropdown">How do you feel about the aesthetic of this 
+            <label for="dropdown">How do you feel about the aesthetic of this
             survey form</label>
             <select class="dropDown" id="dropdown" name="drpdwn">
               <option value="Choose one">Choose One...</option>
@@ -42,6 +42,30 @@
               <option value="Ugly">Ugly</option>
               <option value="JustOkay">Just Okay...</option>
             </select>
+          </div>
+          <div class="formField" id="Gender">
+            <p for="gender">Personal Info: </p>
+              <input type="radio" name="gender" value="male"> Male<br>
+              <input type="radio" name="gender" value="female"> Female<br>
+              <input type="radio" name="gender" value="other"> Other
+          </div>
+          <div class="formField" id="Experience">
+            <p id="expLevel" for="experience">Experience Level: </p>
+              <input type="radio" name="experience" value="novice"> Novice<br>
+              <input type="radio" name="experience" value="amatuer"> Amatuer<br>
+              <input type="radio" name="experience" value="professional"> Professional
+          </div>
+          <div class="formField" id="Checks">
+            <p id="guestInterests" for="interests">What are you currently trying to
+            learn from viewing this form?</p>
+              <input type="checkbox" name="interests" value="html">HTML <br>
+              <input type="checkbox" name="interests" value="css">CSS <br>
+              <input type="checkbox" name="interests" value="js">JavaScript <br>
+          </div>
+          <div class="formField" id="TextArea">
+            <p id="textIntro">Please add any additional comments, questions, or
+            concerns below.</p>
+            <textarea name="addtlComments" rows="8" cols="80"></textarea>
           </div>
           <input type="submit" name="submitBtn" value="Submit">
         </form>
