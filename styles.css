@@ -5,12 +5,13 @@
   background-image: url("https://cdn.hipwallpaper.com/i/89/80/w8qd1O.jpg");
   background-repeat: no-repeat;
   background-size: 100vw 100vh;
-
+  font-family: 'Open Sans';
 }
 
 
 h1, #description{
   text-align: center;
+
 }
 
 .inputField{
@@ -24,6 +25,11 @@ h1, #description{
 
 label{
   margin-right: 2vw;
+  font-weight: bold;
+}
+
+p{
+  font-weight: bold;
 }
 
 /* input:valid{
@@ -34,12 +40,16 @@ input:invalid{
   box-shadow: 1px 1px 5px 5px hsl(0, 60%, 52%, .7);
 }
 
+#title{
+  text-shadow: 3px 3px 2px hsl(0, 0%, 55%);
+}
+
 #Email{
   margin-left: 4vw;
 }
 
 #name, #name-label{
-  margin: 0 0 2vh 1.82vw;
+  margin: 0 0 2vh 1.5vw;
 }
 
 #name-label{
@@ -51,8 +61,13 @@ input:invalid{
 }
 
 #Gender, #Experience, #Checks{
-  display:inline-block;
+  display: block;
   margin-left: 15vw;
+}
+
+textarea{
+  box-sizing: border-box;
+  width: 80%;
 }
 
 #textSpace{
@@ -63,4 +78,10 @@ input:invalid{
 #TextArea{
   display: block;
   padding-top:2vh;
+}
+
+#submit{
+  display: block;
+  margin: auto;
+  width: 20%;
 }
